@@ -159,18 +159,17 @@ install_x-ui() {
     systemctl daemon-reload
     systemctl enable x-ui
     systemctl start x-ui
-    echo -e "${green}x-ui v${last_version}${plain} install finished,it is working now..."
-    echo -e "${yellow} ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
-    echo -e "${GREEN}       / |         ————————————            / |                    ${plain}"
-    echo -e "${GREEN}      /  |        |            |          /  |                    ${plain}"
-    echo -e "${GREEN}     /   |        |            |         /   |                    ${plain}"
-    echo -e "${GREEN}    /    |        |            |        /    |                    ${plain}"
-    echo -e "${GREEN}   /     |        | t.me/Pmttg |       /     |                    ${plain}"
-    echo -e "${GREEN}  / ____ |___     |            |      / ———— |————                ${plain}"
-    echo -e "${GREEN}         |        |            |             |                    ${plain}"
-    echo -e "${GREEN}         |         ————————————              |                    ${plain}"
-    echo -e "${red} Contact the developer https://t.me/nkka404 for more information    ${plain}"
-    echo -e "${yellow} ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
+echo -e "${green}x-ui v${last_version}${plain} install finished,it is working now..."
+echo -e "${yellow}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
+echo -e "${cyan} ___   ___          ________          ___   ___                               ${plain}"
+echo -e "${cyan}|\  \ |\  \        |\   __  \        |\  \ |\  \                              ${plain}"
+echo -e "${cyan}\ \  \|_\  \       \ \  \|\  \       \ \  \|_\  \                             ${plain}"
+echo -e "${cyan} \ \______  \       \ \  \/\  \       \ \______  \                            ${plain}"
+echo -e "${cyan}  \|_____|\  \       \ \  \/\  \       \|_____|\  \                           ${plain}"
+echo -e "${cyan}         \ \__\       \ \_______\             \ \__\                          ${plain}"
+echo -e "${cyan}          \|__|        \|_______|              \|__|                          ${plain}"
+echo -e "${green}Contact the developer https://t.me/nkka404 for more information              ${plain}"
+echo -e "${yellow}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
 }
 
 echo -e "${green}excuting...${plain}"
